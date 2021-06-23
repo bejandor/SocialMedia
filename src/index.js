@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//Метод render отрисовывет элементы в html
 ReactDOM.render(
   <React.StrictMode>
     <App />
