@@ -2,15 +2,13 @@
   display: grid;
   width: 1200px;
   margin: 0 auto;
-  grid-gap: 2                                                                                                                px;
 
   grid-template-areas:
   "h h"
   "n  c";
 
   grid-template-rows:1fr 10fr;
-  grid-template-columns:200px  10fr;
-  
+  grid-template-columns:300px  10fr;
 
 }
 
@@ -20,28 +18,24 @@
 
 .header{
   grid-area: h;
-  background-color:#12151F;
+  background-color:rgb(2, 25, 44)
 
 }
 
 .nav{
   grid-area:n;
-  background-color:#12151F;
+  background-color:rgb(158, 253, 253)
 
 }
 
 .content{
 
 grid-area:c;
-background:#12151F;
+background:rgb(11, 130, 241);
 
 }
 
 .content img{
   height: 400px;
   width: 1200px;
-}
-
-.content{
-  color:#05F4B7;
 }
