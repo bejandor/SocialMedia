@@ -1,41 +1,22 @@
 .app-wrapper{
   display: grid;
-  width: 1200px;
-  margin: 0 auto;
+  grid-gap: 5px;
+  width: 1000px;
+  margin: auto; /*для оцентровки всего контента*/
+  
+ 
 
   grid-template-areas:
   "h h"
   "n  c";
 
   grid-template-rows:1fr 10fr;
-  grid-template-columns:300px  10fr;
+  grid-template-columns:200px  10fr;
+
+  
 
 }
 
-.header img{
-  width:70px;
-}
 
-.header{
-  grid-area: h;
-  background-color:rgb(2, 25, 44)
 
-}
 
-.nav{
-  grid-area:n;
-  background-color:rgb(158, 253, 253)
-
-}
-
-.content{
-
-grid-area:c;
-background:rgb(11, 130, 241);
-
-}
-
-.content img{
-  height: 400px;
-  width: 1200px;
-}
