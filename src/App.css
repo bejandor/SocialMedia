@@ -13,10 +13,15 @@
   grid-template-rows:1fr 10fr;
   grid-template-columns:200px  10fr;
 
-  
-
 }
 
 
+.app-wrapper-content{
+  grid-area:c;
+  background:#12151F;
+  color:#05F4B7;
+  
+
+}
 
 

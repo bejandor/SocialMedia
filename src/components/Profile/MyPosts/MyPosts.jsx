@@ -8,11 +8,11 @@ const MyPosts = () => {
       My posts
       <div>
         New posts
-
       </div>
 
-      <Post />
-      <Post />
+      <Post message="hello everyone!" likes="20" />
+      <Post message="This is my post" likes="30" />
+      
     </div>
 
 

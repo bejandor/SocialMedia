@@ -1,12 +1,4 @@
-.content{
-
-    grid-area:c;
-    background:#12151F;
-    color:#05F4B7;
-    
-    }
-    
-.content img{
+.item img{
       height: 400px;
       width: 800px;
     }
