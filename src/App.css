@@ -1,8 +1,9 @@
 .app-wrapper{
   display: grid;
   grid-gap: 5px;
-  width: 1000px;
+  width: 1200px;
   margin: auto; /*для оцентровки всего контента*/
+  font-family: 'Lato', sans-serif;
   
  
 
@@ -11,7 +12,7 @@
   "n  c";
 
   grid-template-rows:1fr 10fr;
-  grid-template-columns:200px  10fr;
+  grid-template-columns:200px  20fr;
 
 }
 
@@ -20,6 +21,7 @@
   grid-area:c;
   background:#12151F;
   color:#05F4B7;
+  font-family: 'Lato', sans-serif;
   
 
 }

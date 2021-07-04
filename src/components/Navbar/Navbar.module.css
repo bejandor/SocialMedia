@@ -7,15 +7,22 @@
 .item a{
   color: aliceblue;
   text-decoration:none;
-  margin-left:30px;
-  font-size: 35px;
+  font-size: 20px;
+  
 }
 
-.item a:hover{
-  color:#12151F;
-  background-color:aliceblue ;
-}
-
-.item a:active{
+.item a.activelink{
   color: rgb(18, 240, 229);
+  background-color:#12151F;
+}
+
+.nav img{
+  width: 18px;
+  position:relative;
+  margin-right: 5px;
+}
+
+.item{
+  margin-left: 30px;
+  margin-top: 20px;
 }

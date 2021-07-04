@@ -1,9 +1,13 @@
 import classes from './Header.module.css';
 
-const Header = () =>{
-    return(
+const Header = () => {
+    return (
         <header className={classes.header}>
-            <img src="https://i.pinimg.com/736x/86/46/2d/86462d25d7919adad32ce94285060cbe.jpg" />
+            
+            <img src ="https://image.flaticon.com/icons/png/128/1441/1441081.png " alt="###" />
+            <span className={classes.item}>
+             Dostor
+            </span>
         </header>
     );
 }

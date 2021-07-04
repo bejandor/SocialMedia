@@ -1,9 +1,24 @@
-.header img{
-    width:70px;
-  }
-  
 .header{
-    grid-area: h;
-    background-color:#12151F;
+  grid-area: h;
+  background-color:#12151F;
+  box-sizing: border-box;
+  display: flex;
+
+}
+
+
+.header img{
+    width:50px;
+    margin:10px;
   
   }
+
+.header .item{
+  color: aliceblue;
+  font-size:35px;
+  margin: 30px 20px;
+  
+  
+}
+  
+

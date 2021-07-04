@@ -7,6 +7,8 @@ import Dialogs from './components/Dialogs/Dialogs';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Music from './components/Music/Music';
 import Settings from './components/Settings/Settings';
+import News from './components/News/News';
+import Friends from './components/Friends/Friends';
 
 
 const App = (props) => {
@@ -19,7 +21,9 @@ const App = (props) => {
           
           <Route path="/dialogs" component={Dialogs}/>
           <Route path="/profile" component={Profile}/>
+          <Route path="/friends" component={Friends}/>
           <Route path="/music" component={Music}/>
+          <Route path="/news" component={News}/>
           <Route path="/settings" component={Settings}/>
              
         </div>
